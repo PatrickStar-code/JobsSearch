@@ -1,11 +1,12 @@
+import PageTemplate from "../../Pag";
 import { HeroHome } from "./Components/HeroHome";
 
-export  function Home() {
+export function Home() {
   return (
     <>
-    <HeroHome />
-    
+      <PageTemplate>
+        <HeroHome />
+      </PageTemplate>
     </>
-
-  )
+  );
 }
